@@ -1,0 +1,50 @@
+body{
+    background: #000;
+    color: #fff;
+}
+
+.main-head{
+    background: -webkit-linear-gradient(20deg, #57BCFF, #D864C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sifu-btn{
+    margin: 10px 0;
+    padding: 17px 0;
+    font-size: 22px;
+    background: #FFFFFF;
+    color: #000;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 60%
+}
+
+.sifu-btn:hover{
+    transform: scale(1.05);
+    background: #FFFFFF;
+    color: #000;
+    transition: .5s;
+}
+
+.platforms{
+    background: #007bff;
+    height: 220px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.platforms-p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.platforms:hover, .socials:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.socials{
+    border-radius: 20px;
+}
