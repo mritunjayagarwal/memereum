@@ -1,16 +1,18 @@
-body{
+body {
     background: #000;
     color: #fff;
 }
 
-.main-head{
+.main-head {
     background: -webkit-linear-gradient(20deg, #57BCFF, #D864C1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 155px;margin-bottom: -25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 155px;
+    margin-bottom: -25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sifu-btn{
+.sifu-btn {
     margin: 10px 0;
     padding: 17px 10px;
     font-size: 22px;
@@ -21,32 +23,33 @@ body{
     width: 60%
 }
 
-.sifu-btn:hover{
+.sifu-btn:hover {
     transform: scale(1.05);
     background: #FFFFFF;
     color: #000;
     transition: .5s;
 }
 
-.platforms{
+.platforms {
     background: #007bff;
     height: 220px;
     border-radius: 20px;
     padding: 0 20px;
 }
 
-.platforms-p{
+.platforms-p {
     font-size: 22px;
     color: #fff;
     font-weight: 800;
 }
 
-.platforms:hover, .socials:hover{
+.platforms:hover,
+.socials:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.right-text{
+.right-text {
     padding: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -58,15 +61,15 @@ body{
     margin-left: 20%;
 }
 
-.row{
+.row {
     margin: 0 100px;
 }
 
-.main-sub{
+.main-sub {
     font-size: 55px;
 }
 
-.left-text{
+.left-text {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -74,51 +77,72 @@ body{
     background: #48C0F2;
 }
 
-.left-text img{
+.left-text img {
     width: 50px;
 }
 
-.sifu-main{
+.sifu-main {
     padding-top: 400px;
 }
 
-.animated-sifu{
+.sifu-temp {
+    display: none
+}
+
+.animated-sifu {
     padding: 0 20%
 }
 
-.socials{
+.sub-p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center
+}
+
+.socials {
     border-radius: 20px;
 }
 
 @media only screen and (max-width: 667px) {
-    .row{
+    .row {
         margin: unset
     }
 
-    .main-head{
+    .sifu-temp {
+        display: block;
+    }
+
+    .sub-p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-head {
         font-size: 60px !important;
         margin-bottom: 20px;
     }
 
-    .sifu{
+    .sifu {
         display: none;
     }
 
-    .sifu-btn{
+    .sifu-btn {
         width: 90%;
         padding: 10px 20px
     }
 
-    .main-sub{
+    .main-sub {
         font-size: 30px !important;
     }
 
-    .sifu-main{
-        padding-top: 50px;;
+    .sifu-main {
+        padding-top: 50px;
+        ;
     }
 
-    .animated-sifu{
+    .animated-sifu {
         padding: 0 5%;
     }
-    
-  }
+
+}

@@ -14,20 +14,21 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body id = "boddy">
+<body id="boddy">
 
-    <div class="container text-center" style = "position: relative;">
-        <img src="./assets/img/sifu.png" id= "sifu" class = "img-fluid sifu" style = "position: absolute; left: 30%; width: 400px;" alt="">
-        <div class = "sifu-main">
-            <img src="./assets/img/sifu.png" class = "img-fluid sifu-temp" alt="">
+    <div class="container text-center" style="position: relative;">
+        <img src="./assets/img/sifu.png" id="sifu" class="img-fluid sifu"
+            style="position: absolute; left: 30%; width: 400px;" alt="">
+        <div class="sifu-main">
+            <img src="./assets/img/sifu.png" class="img-fluid sifu-temp" alt="">
             <h1 class="text-center main-head">Sifu's Vision</h1>
             <h2 class="text-center mt-0 maain-sub">Home of the magical SIFU token.</h2>
-        <p class="text-center my-5" style = "width: 80%; margin: 0 auto;font-size: 23px;">The SIFU token will be available for sale at an approximate price of $100 for early
-            adopters until end of March, or until all tokens are sold. There are 1,000,000 tokens available, and no
-            additional tokens can be minted.</p>
+            <p class="sub-p my-5">The SIFU token will be available for sale at an approximate price of $100 for early
+                adopters until end of March, or until all tokens are sold. There are 1,000,000 tokens available, and no
+                additional tokens can be minted.</p>
         </div>
 
-        <div id="animated-sifu" class = "animated-sifu">
+        <div id="animated-sifu" class="animated-sifu">
         </div>
 
         <div class="group">
@@ -60,35 +61,35 @@
         <div class="row mt-5">
             <div class="col-lg-4 mt-4">
                 <div class="platforms">
-                    <img src="./assets/img/6758.png" style = "width: 100px; height: auto; margin: 20px  0 auto;" alt="">
-                    <p class = "mt-2 platforms-p">BUY $SIFU on Avalanche</p>
+                    <img src="./assets/img/6758.png" style="width: 100px; height: auto; margin: 20px  0 auto;" alt="">
+                    <p class="mt-2 platforms-p">BUY $SIFU on Avalanche</p>
                 </div>
             </div>
             <div class="col-lg-4 mt-4">
                 <div class="platforms">
-                    <img src="./assets/img/6758.png" style = "width: 100px; height: auto; margin: 20px  0 auto;" alt="">
-                    <p class = "mt-2 platforms-p">BUY $SIFU on Avalanche</p>
+                    <img src="./assets/img/6758.png" style="width: 100px; height: auto; margin: 20px  0 auto;" alt="">
+                    <p class="mt-2 platforms-p">BUY $SIFU on Avalanche</p>
                 </div>
             </div>
             <div class="col-lg-4 mt-4">
                 <div class="platforms">
-                    <img src="./assets/img/6758.png" style = "width: 100px; height: auto; margin: 20px  0 auto;" alt="">
-                    <p class = "mt-2 platforms-p">BUY $SIFU on Avalanche</p>
+                    <img src="./assets/img/6758.png" style="width: 100px; height: auto; margin: 20px  0 auto;" alt="">
+                    <p class="mt-2 platforms-p">BUY $SIFU on Avalanche</p>
                 </div>
             </div>
         </div>
 
-        <div class = "row mt-4 mb-5" >
-            <div class = "col-lg-6 mt-4">
-                <div class = "socials text-center" style = "background:#5865F2">
-                    <img src="./assets/img/dis.png" style = "width: 70px; height: auto" alt="">
-                    <span class = "socials-span">Join Discord</span>
+        <div class="row mt-4 mb-5">
+            <div class="col-lg-6 mt-4" data-aos="fade">
+                <div class="socials text-center" style="background:#5865F2">
+                    <img src="./assets/img/dis.png" style="width: 70px; height: auto" alt="">
+                    <span class="socials-span">Join Discord</span>
                 </div>
             </div>
-            <div class = "col-lg-6 mt-4">
-                <div class = "socials text-center" style = "background:#5865F2">
-                    <img src="./assets/img/dis.png" style = "width: 70px; height: auto" alt="">
-                    <span class = "socials-span">Join Discord</span>
+            <div class="col-lg-6 mt-4">
+                <div class="socials text-center" style="background:#5865F2">
+                    <img src="./assets/img/dis.png" style="width: 70px; height: auto" alt="">
+                    <span class="socials-span">Join Discord</span>
                 </div>
             </div>
         </div>
@@ -107,7 +108,7 @@
 
     <script>
         function myFunc(text, image, id) {
-            document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "my-3"><div class = "right-text" >${text}</div><div class = "mt-3 left-text" style = "width: 30%; padding: 30px"><img src = "./assets/img/money.gif" /></div></div>`
+            document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "right-text mt-4" data-aos="zoom-in-left">${text}</div><div class = "mt-3 left-text" style = "width: 30%; padding: 30px" data-aos="zoom-in-right" data-aos-delay = "500"><img src = "./assets/img/money.gif" /></div>`
             document.getElementById(id).style.display = "none"
         }
 
@@ -120,7 +121,7 @@
             var x = e.clientX;
             var y = e.clientY;
             var coor = "Coordinates: (" + x + "," + y + ")";
-            document.getElementById("sifu").style.margin = x/10 + "px" + " " + y/10 + "px";
+            document.getElementById("sifu").style.margin = x / 10 + "px" + " " + y / 10 + "px";
         }
 
         AOS.init();
