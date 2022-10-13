@@ -7,6 +7,7 @@ body{
     background: -webkit-linear-gradient(20deg, #57BCFF, #D864C1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 155px;margin-bottom: -25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sifu-btn{
@@ -56,6 +57,14 @@ body{
     font-weight: 800;
 }
 
+.row{
+    margin: 0 100px;
+}
+
+.main-sub{
+    font-size: 55px;
+}
+
 .left-text{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -71,3 +80,22 @@ body{
 .socials{
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 667px) {
+    .row{
+        margin: unset
+    }
+
+    .main-head{
+        font-size: 40px !important;
+        margin-bottom: 20px;
+    }
+
+    .sifu{
+        display: none;
+    }
+
+    .main-sub{
+        font-size: 30px !important;
+    }
+  }
