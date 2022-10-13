@@ -31,16 +31,44 @@ body {
 }
 
 .platforms {
-    background: #007bff;
     height: 220px;
     border-radius: 20px;
     padding: 0 20px;
+}
+
+.sifu-buy{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5db1+0,ef017c+100;Pink+3D+%231 */
+background: #ff5db1; /* Old browsers */
+background: -moz-linear-gradient(left,  #ff5db1 0%, #ef017c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ff5db1 0%,#ef017c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ff5db1 0%,#ef017c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c',GradientType=1 ); /* IE6-9 */
+}
+
+.dex{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+0,066dab+100 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 0%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 0%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 0%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+.uni{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+background: #d2ff52; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+
 }
 
 .platforms-p {
     font-size: 22px;
     color: #fff;
     font-weight: 800;
+    text-shadow: 2px 2px 3px #000, 1px 1px 1px #000;
 }
 
 .platforms:hover,
@@ -59,6 +87,11 @@ body {
     color: #000;
     font-weight: 800;
     margin-left: 20%;
+}
+
+.socials-span{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .row {
@@ -103,6 +136,7 @@ body {
 .socials {
     border-radius: 20px;
 }
+
 
 @media only screen and (max-width: 667px) {
     .row {
