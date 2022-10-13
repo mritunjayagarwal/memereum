@@ -45,6 +45,29 @@ body{
     transition: 0.5s;
 }
 
+.right-text{
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    background: #FFE4B0;
+    color: #000;
+    font-weight: 800;
+}
+
+.left-text{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 20px;
+    background: #48C0F2;
+}
+
+.left-text img{
+    width: 50px;
+}
+
 .socials{
     border-radius: 20px;
 }
