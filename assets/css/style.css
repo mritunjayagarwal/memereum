@@ -7,8 +7,8 @@ body {
     background: -webkit-linear-gradient(20deg, #57BCFF, #D864C1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 155px;
-    margin-bottom: -25px;
+    font-size: 80px;
+    margin-bottom: -10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
