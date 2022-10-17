@@ -77,6 +77,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
     transition: 0.5s;
 }
 
+.linkk{
+    text-decoration: none;
+}
+
 .right-text {
     padding: 10px;
     border-top-left-radius: 20px;
