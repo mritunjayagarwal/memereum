@@ -23,7 +23,7 @@
             <img src="./assets/img/sifu.png" class="img-fluid sifu-temp" alt="">
             <h1 class="text-center main-head">The Meme Protocol</h1>
             <h2 class="text-center mt-0 maain-sub">Web3 Based Entertainment And Content Creation Platform.</h2>
-            <p class="sub-p my-5">The Meme Protocol ($TMP) will be stealth launching on the 17th of October with the aim of creating an independent and secure entertainment platform. Major partnerships with influencers and projects along with community events will define the early stages of The Meme Protocol while we work towards our platforms release.</p>
+            <p class="sub-p my-5 text-center">The Meme Protocol ($TMP) will be stealth launching on the 17th of October with the aim of creating an independent and secure entertainment platform. Major partnerships with influencers and projects along with community events will define the early stages of The Meme Protocol while we work towards our platforms release.</p>
         </div>
 
         <div id="animated-sifu" class="animated-sifu">
@@ -32,19 +32,19 @@
         <div class="group">
             <div class="accordion">
                 <button class="btn btn-block sifu-btn" id="d1"
-                    onclick="myFunc('What is the purpose of “The Meme Protocol”?', 'money', 'd1')">What is the purpose of “The Meme Protocol”?</button>
+                    onclick="myFunc('What is the purpose of “The Meme Protocol”?', 'We aim to create a Web3 based entertainment platform that protects user privacy while enabling publishers to generate increased revenue.', 'd1')">What is the purpose of “The Meme Protocol”?</button>
             </div>
             <div class="accordion">
                 <button class="btn btn-block sifu-btn" id="d2"
-                    onclick="myFunc('Who will be able to use the entertainment platform?', 'money', 'd2')">Who will be able to use the entertainment platform?</button>
+                    onclick="myFunc('Who will be able to use the entertainment platform?', 'The BETA version will be available exclusively for $TMP holders. The official release of the platform will be available to the public.', 'd2')">Who will be able to use the entertainment platform?</button>
             </div>
             <div class="accordion">
                 <button class="btn btn-block sifu-btn" id="d3"
-                    onclick="myFunc('Will $TMP holders have any benefits on the platform?', 'money', 'd3')">Will $TMP holders have any benefits on the platform?</button>
+                    onclick="myFunc('Will $TMP holders have any benefits on the platform?', 'Yes, $TMP holders will receive the holder status which grants them access to exclusive content on the site, limited advertising, and special community features.', 'd3')">Will $TMP holders have any benefits on the platform?</button>
             </div>
             <div class="accordion">
                 <button class="btn btn-block sifu-btn" id="d4"
-                    onclick="myFunc('Wen $TMP moon?', 'money', 'd4')">Wen $TMP moon?</button>
+                    onclick="myFunc1('Wen $TMP moon?', 'money', 'd4')">Wen $TMP moon?</button>
             </div>
 <!--             <div class="accordion">
                 <button class="btn btn-block sifu-btn" id="d5" onclick="myFunc('Is this a DAO?', 'money', 'd5')">Is
@@ -103,6 +103,10 @@
     <script>
         function myFunc(text, answer, id) {
             document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "right-text mt-4" data-aos="zoom-in-left">${text}</div><div class = "mt-3 left-text" style = "margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;" data-aos="zoom-in-right" data-aos-delay = "500">${answer}</div>`
+            document.getElementById(id).style.display = "none"
+        }
+        function myFunc1(text, image, id) {
+            document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "right-text mt-4" data-aos="zoom-in-left">${text}</div><div class = "mt-3 left-text" style = "width: 30%; padding: 30px" data-aos="zoom-in-right" data-aos-delay = "500"><img src = "./assets/img/money.gif" /></div>`
             document.getElementById(id).style.display = "none"
         }
 
