@@ -79,6 +79,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
 
 .linkk{
     text-decoration: none;
+    color: #fff;
+}
+.linkk:hover{
+    color: #fff;
 }
 
 .right-text {
