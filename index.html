@@ -107,8 +107,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-        function myFunc(text, image, id) {
-            document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "right-text mt-4" data-aos="zoom-in-left">${text}</div><div class = "mt-3 left-text" style = "width: 30%; padding: 30px" data-aos="zoom-in-right" data-aos-delay = "500"><img src = "./assets/img/money.gif" /></div>`
+        function myFunc(text, answer, id) {
+            document.getElementById('animated-sifu').innerHTML = document.getElementById('animated-sifu').innerHTML + `<div class = "right-text mt-4" data-aos="zoom-in-left">${text}</div><div class = "mt-3 left-text" style = "margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;" data-aos="zoom-in-right" data-aos-delay = "500">${answer}</div>`
             document.getElementById(id).style.display = "none"
         }
 
